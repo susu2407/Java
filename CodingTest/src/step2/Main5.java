@@ -35,18 +35,22 @@ public class Main5 {
 		
 		if(m<45) {
 			sm = 60-(45-m);
-			if (sm == 0) {
-				String mm = " ";
-			} 
 			sh = h-1;
+			if(sh<0) {
+				int bh = 24+sh;
+				
+				System.out.println(bh + " " + sm);
+			} else {
+				
+				System.out.print(sh + " " + sm);				
+			}
 			
-			System.out.print(sh + " " + sm);				
 		} else {
 			sm = m-45;
 			
 			System.out.println(h + " " + sm);
 		}
-		
+				
 		sc.close();
 	}
 
