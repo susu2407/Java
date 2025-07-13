@@ -10,9 +10,10 @@ public class Main1 {
 		
 		for(int i = 1; i<10; i++) {
 			int j = N * i;
-			System.out.println(N + " ＊ " + i + " = " + j);
+			System.out.println(N + " * " + i + " = " + j);
 		}
 		sc.close();
 	}
+
 
 }
