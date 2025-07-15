@@ -16,7 +16,7 @@ public class Engineer extends Person {
 	 
 	 //메서드
 	 public void work() {
-		 super.work();
+		 super.introduce();
 		 System.out.println("저는 [" + field + "] 엔지니어 입니다.");
 	 }
 }
