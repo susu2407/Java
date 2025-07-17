@@ -23,10 +23,10 @@ class Adder {
 	private int x;
 	private int y;
 	
-	public void add(int x, int y) {
-		this.x += x;
-		y++;
-	}
+	//public void add(int x, int y) {
+		//this.x += x;
+		//y++;
+	//}
 	
 	public void add(int[] arr) {
 		this.x += arr[0];
@@ -34,7 +34,7 @@ class Adder {
 	}
 	
 	public static void add(int a2) {
-		a2.x += 10;
+		// a2.x += 10;
 	}
 	
 	public static Adder add(int a3, int value) {
@@ -52,10 +52,10 @@ class Adder {
 public class Test06 {
 	public static void main(String[] args) {
 		
-		Adder a1 = new Adder();
+		//Adder a1 = new Adder();
 		
-		a1.add(1, 2);
-		a1.show();
+		//a1.add(1, 2);
+		//a1.show();
 		
 		
 	}
