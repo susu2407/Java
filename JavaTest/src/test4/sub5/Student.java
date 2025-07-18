@@ -10,7 +10,7 @@ public class Student {
 	
 	// 생성자
 	public Student(String name, String studentid) {
-		this.name = name;			// 학생 이름
+		this.name = name; 			// 학생 이름
 		this.studentid = studentid;	// 학생 아이디
 		subjects = new Subject[10];	// 학생이 수강하는 과목 배열
 		scores = new int[10];		// 학생의 각 과목 성적 배열

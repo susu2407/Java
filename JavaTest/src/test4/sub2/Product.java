@@ -14,7 +14,7 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
-	// 새로운 가격을 받아 상품 가격을 수정
+	// 새로운 가격을 받아 상품 가격을 수정A
 	public void updatePrice(int newPrice) {
 		this.price = newPrice;
 		System.out.println(this.productName + " 가격 수정 됨");

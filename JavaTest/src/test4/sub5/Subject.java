@@ -19,7 +19,7 @@ public class Subject {
 	
 		students[studentCount++] = std;
 		
-	}
+	} 
 	
 	//과목 이름과 수강한 학생들의 이름 출력
 	public void printSubjectInfo() {

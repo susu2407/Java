@@ -20,12 +20,12 @@ public class Book {
 	// 도서가 대출되지 않은 상태라면 대출
 	public void borrowBook() {
 		
-		if(isBorrowd = false) {
-			System.out.println("도서대출 : " + this.title);
+		if(this.isBorrowd) { // this 생각 못함
+			System.out.println(this.title + " 이미 대출됨"); // else 생각 못함!!
 			
 		} else {
 			this.isBorrowd = true;
-			System.out.println(this.title + " 이미 대출됨"); // else 생각 못함!!
+			System.out.println("도서대출 : " + this.title);
 		}
 	}
 	

@@ -42,13 +42,13 @@ public class Main {
 		System.out.println("--------------------");
 		
 		// 학생 정보 출력
-//		student1.printStudentInfo();
-//		System.out.println("--------------------");
-//		
-//		// 학생 정보 출력
-//		student2.printStudentInfo();
-//		System.out.println("--------------------");
-//		
+		student1.printStudentInfo();
+		System.out.println("--------------------");
+		
+		// 학생 정보 출력
+		student2.printStudentInfo();
+		System.out.println("--------------------");
+		
 	}
 
 }

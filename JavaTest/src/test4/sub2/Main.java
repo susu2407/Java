@@ -22,12 +22,6 @@ public class Main {
 		System.out.println("--------------------");
 		
 		product.printProductInfo();
-		System.out.println("--------------------");
-
-		
+		System.out.println("--------------------");		
 	}
-	
-	
-
-
 }
