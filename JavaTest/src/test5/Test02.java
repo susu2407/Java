@@ -37,7 +37,7 @@ public class Test02 {
 			searchArray(find, arr);
 			System.out.println("입력한 숫자를 찾았습니다!");			
 			
-		}catch(Exception e) {
+		}catch(Exception e) { // Exception 해서 결과 나왔는데, 강사님은 NotFoundException을 했음. 둘 차이가 뭔지 찾아보기!
 			System.out.println(e.getMessage());
 			
 		}finally {

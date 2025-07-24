@@ -9,8 +9,8 @@ class Apple {
 	private String country;
 	private int price;
 	
-	public Apple(String string, int i) {
-		super();
+	public Apple(String country, int price) {
+		// super(); // 필요없음.
 		this.country = country;
 		this.price = price;
 	}
@@ -26,15 +26,15 @@ class Banana {
 	private String country;
 	private int price;
 	
-	public Banana(String string, int i) {
-		super();
+	public Banana(String country, int price) {
+		// super(); // 필요없음.
 		this.country = country;
 		this.price = price;
 	}
 	
 	@Override
 	public String toString() {
-		return "Apple [country=" + country + ", price=" + price + "]";
+		return "Banana [country=" + country + ", price=" + price + "]";
 	}
 }
 
@@ -44,14 +44,14 @@ class Grape {
 	private int price;
 	
 	public Grape(String country, int price) {
-		super();
+		// super(); // 필요없음.
 		this.country = country;
 		this.price = price;
 	}
 	
 	@Override
 	public String toString() {
-		return "Apple [country=" + country + ", price=" + price + "]";
+		return "Grape [country=" + country + ", price=" + price + "]";
 	}
 }
 

@@ -29,6 +29,8 @@ public class Test03 {
 			System.out.print("비밀번호 : ");
 			String inputPw = sc.nextLine();
 			
+			
+			// coctentEqulas와 equals 차이점 찾아보자
 			if(!inputId.contentEquals(userId)) {
 				throw new LoginException("아이디 틀림!");
 			}else if(!inputPw.contentEquals(userPw)) {
@@ -37,7 +39,7 @@ public class Test03 {
 				System.out.println("로그인 성공!");				
 			}	
 			
-		}catch(Exception e) {
+		}catch(LoginException e) {
 			System.out.println(e.getMessage());
 		}
 	}	
