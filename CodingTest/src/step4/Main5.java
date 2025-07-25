@@ -12,21 +12,18 @@ public class Main5 {
 		bk[0] = 0; // 첫번째 바구니에는 공이 없다.
 		
 		int M = sc.nextInt(); // 반복할 횟수
+		
 		for (int s=0; s<M; s++) {
 			int i = sc.nextInt(); // 시작할 바구니 번호
 			int j = sc.nextInt(); // 마지막 바구니 번호
 			int k = sc.nextInt(); // 넣을 공 번호
 			
-			for (int e=0; e<(k-j); e++) { // 바구니에 공 넣기
-				bk[i+e] =  k;				
+			for (int e=i; e<j; e++) { // 바구니에 공 넣기
+				bk[e-1] =  k;				
 			}
 		}
+		
 		System.out.println(Arrays.toString(bk));
-		
-		
-		
-		
-		
 	}
 
 }
